@@ -1,0 +1,19 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: brown;
+}
+canvas{
+    margin-top: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    0% {box-shadow: 0px 0px 50px orangered;}
+    25% {box-shadow: 0px 0px 50px rebeccapurple;}
+    50% {box-shadow: 0px 0px 50px aquamarine;}
+    75% {box-shadow: 0px 0px 50px lawngreen;}
+    100% {box-shadow: 0px 0px 50px orangered;}
+}
